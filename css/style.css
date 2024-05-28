@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container1 {
+    width: 983px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    gap: 165px;
+}
+
+.logos a.active {
+    color: #0082F3;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 66px;
+}
+
+.header img {
+    padding-top: 51px;
+}
+
+.logos a {
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: left;
+    color: #222222;
+}
+
+.promo_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 175px;
+}
+
+.promo_item1 {
+    margin-top: 155px;
+    width: 434px;
+}
+
+.promo_item1 h1 {
+    font-family: Work Sans;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: #333333;    
+}
+
+.promo_item1 p {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #333333;   
+    margin: 30px 0; 
+}
+
+.promo_item2 {
+    margin-top: 91px;
+}
+
+.promo_item2 img {
+    width: 374px;
+}
+
+.get-apps {
+    display: flex;
+    gap: 8px;
+}
+
+.term_box {
+    display: flex;
+    gap: 144px;
+}
+
+.term_item1 {
+    padding-top: 141.23px;
+}
+
+.term_item2 {
+    width: 392px;
+    padding-top: 205px;
+}
+
+.term_item2 h1 {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    color: #333333;    
+}
+
+.term_item2 p {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #333333;    
+    margin: 30px 0;
+}
+
+.container2 {
+    width: 1052px;
+    margin: 0 auto;
+    padding-bottom: 29px;
+}
+
+.explanation h2 {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    color: #333333;
+    padding-top: 88px;
+    margin-bottom: 52px;    
+}
+
+.explanation_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 92px;
+}
+
+.explanation_item {
+    text-align: center;
+}
+
+.explanation_item svg {
+    margin-top: 42px;
+    margin-bottom: 49px;
+}
+
+.explanation_item p:nth-child(2) {
+    margin-bottom: 31px;
+}
+
+.explanation_item p:nth-child(2) {
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;    
+}
+
+.explanation_item p:nth-child(3) {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;    
+} 
+
+.explanation_item p:nth-child(4) {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;    
+} 
+
+.one {
+    width: 288px;
+    height: 327px;
+    top: 1356px;
+    left: 194px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px #B7B7B7;    
+}
+
+.two {
+    width: 303px;
+    height: 327px;
+    top: 1356px;
+    left: 574px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 1px 0px 10px 0px #B7B7B7;
+}
+
+.three {
+    width: 277px;
+    height: 327px;
+    top: 1356px;
+    left: 969px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px 0px #B7B7B7;    
+}
+
+.green-bg {
+    height: 371px;
+    background: #31C5A1;
+    align-items: center;
+}
+
+.green-bg h2 {
+    padding-top: 131px;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+.get-apps2 {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+footer {
+    padding: 50px 0 55px;
+}
+
+.container3 {
+    width: 1194px;
+    margin: 0 auto;
+}
+
+.footer_box {
+    display: flex;
+    gap: 160px;
+}
+
+.footer_item {
+    display: flex;
+    justify-content: space-between;
+    gap: 147px;
+}
+
+.footer_item {
+    align-items: flex-start;
+}
+
+.footer_item a {
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #333333;    
+}
+
+.footer_item p {
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #333333;
+}
